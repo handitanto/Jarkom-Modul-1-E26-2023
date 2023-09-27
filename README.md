@@ -2,7 +2,7 @@
 
 Berikut adalah laporan resmi Praktikum Jaringan Komputer Modul 1 tahun 2023
 
-Anggota Kelompok C04 :
+Anggota Kelompok E26 :
 * 5025201077 - Handitanto Herprasetyo
 
 ### 1.User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
