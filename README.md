@@ -32,11 +32,15 @@ Anggota Kelompok E26 :
     'Acknowledge number (raw) = 258040696'
 `258040696`
 
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/1(1).png>
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/1(2).png>
+
 ### 2.Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
     Mencari di display filter dengan kata kunci 'http'.
     Akan didapatkan pada salah satu paket informasi mengenai web server yaitu "Gunicorn"
 `Gunicorn`
 
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/2.png>
 ### 3.Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 
 #### a.Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
@@ -48,11 +52,15 @@ Anggota Kelompok E26 :
       Paket menampilkan protokol apa yang dipakai dalam paket tersebut adalah UDP
 `UDP`
 
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/3.png>
+
 ### 4.Berapa nilai checksum yang didapat dari header pada paket nomor 130?
     Mencari paket no 130 di display filter.
     Jika diklik 2 kali maka akan didapatkan informasi checksum.
     'Checksum = 0x18e5'
 `0x18e5`
+
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/4.png>
 
 ### 5.Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
 
@@ -71,6 +79,9 @@ Anggota Kelompok E26 :
     Didapatkan ip address yang merupakan public 'ip = 74.53.140.153'.
 `ip = 74.53.140.153`
 
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/5(1).png>
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/5(2).png>
+
 ### 6.Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. 
 Sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. 
 Ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. 
@@ -80,13 +91,19 @@ Jiwa detektif slamet pun bergejolak. Bantulah udin dan slamet untuk menemukan so
     Gunakan query 'ip.dst == 184.87.193.88', didapatkan 6 paket yang terlihat.
 `6`
 
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/7.png>
+
 ### 8.Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
     Untuk mengambil semua protokol paket yang menuju port 80 maka digunakan query 'tcp.dstport == 80 || udp.dstport == 80'
 `tcp.dstport == 80 || udp.dstport == 80`
 
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/8.png>
+
 ### 9.Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
     Untuk mengambil paket yang berasal dari alamat '10.51.40.1' tetapi tidak menuju ke alamat '10.39.55.34', digunakan query 'ip.src == 10.51.40.1 && ip.dst != 10.39.55.34'
 `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`
+
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/9.png>
 
 ### 10. Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
     Pertama filter terlebih dulu "Telnet" untuk memunculkan semua paket dengan protokol telnet.
@@ -98,7 +115,7 @@ Jiwa detektif slamet pun bergejolak. Bantulah udin dan slamet untuk menemukan so
     Hal ini diperkuat juga dengan paket 81.
 `dhafin:kesayangannyak0k0`
 
-
+<img src=https://github.com/handitanto/Jarkom-Modul-1-E26-2023/blob/main/img/10.png>
 
 
 
